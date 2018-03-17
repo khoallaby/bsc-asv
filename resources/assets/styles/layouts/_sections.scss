@@ -46,10 +46,20 @@ section.discover-adventure {
 
 section.discover-amazing-trips {
   h2 {
-    color: $color-green;
+    color: theme-color("green-color");
     font-size: 42px;
   }
   .amazing-trip {
+    h3 {
+      color: theme-color("blue-dark");
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+    }
     &:hover { background-color: #f2f2f2; }
+    min-height: 105px;
+    text-align: center;
+
   }
 }

@@ -12,7 +12,7 @@ body {
     margin-bottom: 30px;
   }
 }
-h1, h2, h3 { color: $primary-color; }
+h1, h2, h3 { color: theme-color("green-color"); }
 h1 {
   font-size: $h1-font-size;
   font-weight: 900;

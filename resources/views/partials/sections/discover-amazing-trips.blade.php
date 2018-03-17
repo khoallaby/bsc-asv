@@ -7,12 +7,15 @@
             </div>
         </div>
         <div class="row no-gutters">
+
+            @for ($i = 0; $i < 6; $i++)
             <div class="col-2 amazing-trip">
                 <a href="#">
-                    <img src="" /><br />
-                    6 DAY RAFTING
+                    <img src="@asset('images/icons/rafting.png')" />
+                    <h3>6 DAY RAFTING</h3>
                 </a>
             </div>
+            @endfor
         </div>
     </div>
 </section>
