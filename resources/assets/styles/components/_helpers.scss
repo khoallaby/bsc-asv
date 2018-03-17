@@ -1,0 +1,12 @@
+/*------------------------------------------------------------------
+    Helper classes
+------------------------------------------------------------------*/
+.flex,
+.vcenter,
+.hcenter { display: -ms-flexbox; display: -webkit-flex; display: flex; }
+.vcenter { -ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center; align-items: center; }
+.hcenter {  -webkit-justify-content: center; justify-content: center; }
+.no-gutter > [class*='col-'] { padding-right:0; padding-left:0; }
+.row.row-eq-height { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.bg-img-cover { background-size: cover; background-position: 0 0; background-repeat: no-repeat; }
+
