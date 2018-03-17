@@ -41,3 +41,15 @@ section.discover-adventure {
   height: 709px; //259px;
   width: 1920px;
 }
+
+
+
+section.discover-amazing-trips {
+  h2 {
+    color: $color-green;
+    font-size: 42px;
+  }
+  .amazing-trip {
+    &:hover { background-color: #f2f2f2; }
+  }
+}
