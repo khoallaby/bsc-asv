@@ -1,0 +1,74 @@
+/*------------------------------------------------------------------
+    General elements
+------------------------------------------------------------------*/
+
+body {
+  color: $body-color;
+  font-family: $font-family;
+  font-size: $body-font-size;
+  p {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+}
+h1, h2, h3 { color: $primary-color; }
+h1 {
+  font-size: $h1-font-size;
+  font-weight: 900;
+  /*line-height: 0.438;*/
+}
+h2 {
+  font-size: $h2-font-size;
+  font-weight: 900;
+  /*line-height: 0.698;*/
+}
+h3 {
+  color: #000;
+  font-size: $h3-font-size;
+  font-weight: 700;
+  /*line-height: 0.955;*/
+}
+.content p {
+  color: inherit;
+}
+
+a { color: $primary-color; text-decoration: none; }
+a:focus, a:hover { color: inherit; text-decoration: underline; }
+
+
+input[type="submit"].gform_button,
+.btn-primary { display: inline-block; font-size: 18px; padding: 5px 40px; max-width: 100%; }
+
+input[type="submit"].gform_button,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary{
+  background-color: rgba(108,194,74,1);
+  @include rounded-corners('all', 17px);
+  //@include gradient-vertical(#48a23f, #6cc24a);
+  box-shadow: $shadow;
+
+  &.blue {
+    //@include gradient-vertical($primary-color, #52b9e9);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .fa {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+}
+
+hr {
+  border-top: 1px solid;
+}
