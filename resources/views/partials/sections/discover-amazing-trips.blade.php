@@ -8,11 +8,11 @@
         </div>
         <div class="row no-gutters">
 
-            @for ($i = 0; $i < 6; $i++)
-            <div class="col-2 amazing-trip">
+            @for ($i = 0; $i < 5; $i++)
+            <div class="col amazing-trip">
                 <a href="#">
                     <img src="@asset('images/icons/rafting.png')" />
-                    <h3>6 DAY RAFTING</h3>
+                    <h3>{{ $i+1 }} - 6 DAY RAFTING</h3>
                 </a>
             </div>
             @endfor
