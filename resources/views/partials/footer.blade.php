@@ -19,8 +19,8 @@
       <div class="col-2"></div>
       <div class="col-6">
         <nav class="nav-footer">
-          @if (has_nav_menu('primary_navigation'))
-            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
+          @if (has_nav_menu('footer_navigation'))
+            {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav']) !!}
           @endif
         </nav>
         <div class="footer-social-links">
