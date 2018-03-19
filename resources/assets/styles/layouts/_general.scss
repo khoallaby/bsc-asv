@@ -52,15 +52,17 @@ input[type="submit"].gform_button,
   color: #525d6f;
 }
 
-.btn-primary{
+.btn-primary {
   //background-color: rgba(108,194,74,1);
   //@include rounded-corners('all', 17px);
   //@include gradient-vertical(#48a23f, #6cc24a);
   //box-shadow: $shadow;
+  border-radius: 0;
 
   &.white {
     //@include gradient-vertical($primary-color, #52b9e9);
     border-color: white;
+    color: white;
   }
   .fa {
     font-size: 16px;
@@ -71,3 +73,7 @@ input[type="submit"].gform_button,
 hr {
   border-top: 1px solid;
 }
+
+
+
+.teal-color { color: theme-color("teal-color"); }
