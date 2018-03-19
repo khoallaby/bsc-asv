@@ -3,6 +3,7 @@
 @section('pre-content')
     @include('partials.sections.home-slider')
     @include('partials.sections.discover-amazing-trips')
+    @include('partials.sections.enjoy-whitewater')
 @endsection
 
 

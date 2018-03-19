@@ -65,3 +65,35 @@ section.discover-amazing-trips {
 
   }
 }
+
+
+
+/* section - enjoy whitewater */
+
+section.enjoy-whitewater {
+
+  .enjoy-whitewater-left,
+  .enjoy-whitewater-right {
+    min-height: 525px;
+  }
+
+  .enjoy-whitewater-left {
+    background-image: url("../images/enjoy-whitewater-bg.jpg");
+    h2 {
+      color: #fff;
+      font-size: 42px;
+      font-weight: 400;
+      margin-bottom: 35px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    p {
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.444;
+    }
+  }
+  .enjoy-whitewater-right {
+    background: url("../images/enjoy-whitewater-image.jpg") center center;
+  }
+}
