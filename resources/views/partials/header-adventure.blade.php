@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6 adventure-text">
-                FOLLOW THE
+                {{ $title or '' }}
             </div>
             <div class="col-6"></div>
         </div>

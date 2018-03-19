@@ -17,9 +17,8 @@ section.header-adventure {
     text-align: right;
     text-transform: uppercase;
   }
-  background-image: url("../images/header-adventure.jpg");
+  background: url("../images/header-adventure.jpg") center;
   height: 97px;
-  width: 1920px;
 }
 
 
@@ -36,10 +35,9 @@ section.discover-adventure {
   form {
     text-align: center;
   }
-  background-image: url("../images/background-discover-adventure.jpg");
+  background: url("../images/background-discover-adventure.jpg") center;
   padding-top: 450px;
   height: 709px; //259px;
-  width: 1920px;
 }
 
 
@@ -78,7 +76,7 @@ section.enjoy-whitewater {
   }
 
   .enjoy-whitewater-left {
-    background-image: url("../images/enjoy-whitewater-bg.jpg");
+    background: url("../images/enjoy-whitewater-bg.jpg") center top;
     h2 {
       color: #fff;
       font-size: 42px;
@@ -94,6 +92,6 @@ section.enjoy-whitewater {
     }
   }
   .enjoy-whitewater-right {
-    background: url("../images/enjoy-whitewater-image.jpg") center center;
+    background: url("../images/enjoy-whitewater-image.jpg") center top;
   }
 }
