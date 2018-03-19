@@ -1,4 +1,12 @@
 footer {
+  color: theme-color("blue-light");
+
+
+
+  a {
+    color: theme-color("blue-light");
+  }
+
   .footer-hr {
     background: transparent url("../images/footer-hr.png");
     height: 4px;
@@ -6,12 +14,45 @@ footer {
   }
 
   .contact-us-text {
-    h3 {
-      color: #525d6f;
-      font-size: 24px;
+    font-size: 16px;
+    b, strong {
+      color: theme-color("orange-color");
       font-weight: bold;
     }
-    font-size: 16px;
+    h3 {
+      color: #525d6f;
+      font-weight: bold;
+    }
+  }
+
+  nav.nav-footer {
+    li {
+      a {
+        font-size: 24px;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+
+
+  .footer-social-links {
+    text-align: right;
+    a {
+      color: theme-color("orange-color");
+      font-size: 38px;
+      margin-left: 40px;
+    }
+  }
+
+  .footer-copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
   }
 
   .footer-frei-inc {
@@ -20,6 +61,8 @@ footer {
     font-size: 14px;
     padding: 5px 0;
     text-align: center;
-
   }
+
+
+
 }

@@ -1,16 +1,16 @@
-  <footer>
+<footer>
   <div class="footer-hr"></div>
   <div class="container">
     @php(dynamic_sidebar('sidebar-footer'))
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-2">footer logo</div>
+      <div class="col-2"><img src="@asset('images/logo-footer.png')" /></div>
       <div class="col-2 contact-us-text">
         <h3>CONTACT US</h3>
         <p>
-          <span class="orange-text">T</span> 208.507.1012<br />
-          <span class="orange-text">E</span> <a href="mailto:info@adventuresunvalley.com">info@adventuresunvalley.com </a><br />
+          <strong>T</strong> 208.507.1012<br />
+          <strong>E</strong> <a href="mailto:info@adventuresunvalley.com">info@adventuresunvalley.com </a><br />
           Adventure Sun Valley<br />
           374 Wolverine Ct., Richland Wa 99352<br />
         </p>
@@ -23,9 +23,10 @@
             {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav']) !!}
           @endif
         </nav>
-        <div class="footer-social-links">
-          <a href="#" class="fa-facebook"></a>
-          <a href="#" class="fa-instagram"></a>
+        <div class="footer-social-links text-right">
+          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
         </div>
         <div class="footer-copyright">&copy; {{ date('Y') }} Adventure Sun Valley</div>
       </div>
