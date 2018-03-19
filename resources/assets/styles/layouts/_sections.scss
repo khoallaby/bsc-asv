@@ -24,7 +24,7 @@ section.header-adventure {
 
 
 
-/** form - discover adventure */
+/* form - discover adventure */
 
 section.discover-adventure {
   h2 {
@@ -43,15 +43,17 @@ section.discover-adventure {
 }
 
 
+/* section - discover y/our amazing trips */
 
 section.discover-amazing-trips {
   h2 {
     color: theme-color("green-color");
     font-size: 42px;
+    text-align: center;
   }
   .amazing-trip {
     h3 {
-      color: theme-color("blue-dark");
+      color: theme-color("blue-primary");
       font-size: 24px;
       font-weight: bold;
       text-transform: uppercase;
