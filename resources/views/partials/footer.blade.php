@@ -1,12 +1,12 @@
 <footer>
   <div class="footer-hr"></div>
   <div class="container">
-    @php(dynamic_sidebar('sidebar-footer'))
+    {{--@php(dynamic_sidebar('sidebar-footer'))--}}
   </div>
-  <div class="container">
+  <div class="container footer-content">
     <div class="row">
       <div class="col-2"><img src="@asset('images/logo-footer.png')" /></div>
-      <div class="col-2 contact-us-text">
+      <div class="col-4 contact-us-text">
         <h3>CONTACT US</h3>
         <p>
           <strong>T</strong> 208.507.1012<br />
@@ -16,7 +16,6 @@
         </p>
         <a href="#" class="btn-primary">BOOK YOUR ADVENTURE</a>
       </div>
-      <div class="col-2"></div>
       <div class="col-6">
         <nav class="nav-footer">
           @if (has_nav_menu('footer_navigation'))
