@@ -7,14 +7,35 @@
 }
 
 
+
+/*
+
+/* Let's Connect bar  */
+
+.header-contact {
+  a, .fa {
+    color: white;
+  }
+  background-color: theme-color("blue-primary");
+  color: theme-color("orange-color");
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .navbar-brand
   {
     position: absolute;
-    width: 100%;
+    width: 466px;//100%;
     left: 0;
-    text-align: center;
-    margin:0 auto;
-    z-index: -10;
+    right: 0;
+    margin: auto;
+    //margin-left: -233px;
+    //margin:0 auto;
+    //z-index: -10;
+    box-shadow: $shadow;
   }
 }
+
+
+
+

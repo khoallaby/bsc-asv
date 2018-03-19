@@ -2,10 +2,25 @@
 {{--@include('partials.sections.discover-amazing-trips')--}}
 
 <header class="banner">
-  <div class="container">
-    <div class="container-fluid header-contact">
-      Let’s Connect
+  <div class="container-fluid header-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Let’s Connect
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+        </div>
+        <div class="col text-right">
+          Contact Us!
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <a href="tel:208-507-1012">208.507.1012</a>
+        </div>
+      </div>
+
     </div>
+  </div>
+  <div class="container">
     <nav class="nav-primary">
       {{--
       @if (has_nav_menu('primary_navigation'))
@@ -24,7 +39,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
         Menu
       </button>
-      <a class="brand navbar-brand mx-auto" href="{{ home_url('/') }}"><img src="http://imgd.downloadapk.net/d/31/41496d_150.png" /></a>
+      <a class="brand navbar-brand mx-auto" href="{{ home_url('/') }}"><img src="@asset('images/logo.png')" /></a>
       <div class="navbar-collapse collapse">
 
         @php
