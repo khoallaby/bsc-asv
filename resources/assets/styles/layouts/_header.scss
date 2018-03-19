@@ -39,3 +39,22 @@
 
 
 
+header nav {
+  ul li {
+    a {
+      color: theme-color("blue-primary");
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &:hover {
+      border-bottom: 4px solid theme-color("teal-color");
+    }
+    border-bottom: 4px solid transparent;
+  }
+
+  &.navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
