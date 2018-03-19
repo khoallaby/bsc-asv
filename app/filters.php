@@ -68,3 +68,11 @@ add_filter('comments_template', function ($comments_template) {
     );
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
+
+/**
+ * Adds the nav-link class to all anchor elements in WP menus
+ */
+add_filter( 'nav_menu_link_attributes', function($atts) {
+    $atts['class'] = "nav-link";
+    return $atts;
+}, 100, 1 );

@@ -5,3 +5,16 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+
+@media (min-width: 768px) {
+  .navbar-brand
+  {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+    z-index: -10;
+  }
+}
