@@ -1,6 +1,6 @@
 <section class="container-fluid enjoy-whitewater no-gutters">
     <div class="row">
-        <div class="col-6 enjoy-whitewater-left">
+        <div class="col-md-6 enjoy-whitewater-left">
             <h2>Enjoy the <span class="teal-color">best wilderness whitewater river</span> in the world!</h2>
             <div class="row">
                 <div class="col-2 offset-1 text-center">
@@ -13,8 +13,6 @@
 
             </div>
         </div>
-        <div class="col-6 enjoy-whitewater-right">
-            {{--<img src="@asset('images/enjoy-whitewater-image.jpg')" />--}}
-        </div>
+        <div class="col-md-6 enjoy-whitewater-right"></div>
     </div>
 </section>
