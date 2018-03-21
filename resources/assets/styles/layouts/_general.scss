@@ -12,8 +12,11 @@ body {
     margin-bottom: 30px;
   }
 }
-h1, h2, h3,
-h1 a, h2 a h3 a { color: theme-color("green-color"); }
+h1, h2, h3 { 
+  color: theme-color("green-color");
+  font-family: $font-family-header;
+  a { color: theme-color("green-color") }
+}
 
 h1 {
   font-size: $h1-font-size;
