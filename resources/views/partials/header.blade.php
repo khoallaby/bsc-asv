@@ -39,7 +39,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
         Menu
       </button>
-      <a class="brand navbar-brand mx-auto" href="{{ home_url('/') }}"><img src="@asset('images/logo.png')" /></a>
+      <a class="brand navbar-brand mx-auto" href="{{ home_url('/') }}"><img src="@asset('images/logo.png')" class="img-fluid"/></a>
       <div class="navbar-collapse collapse">
 
         @php
