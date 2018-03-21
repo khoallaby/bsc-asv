@@ -4,18 +4,14 @@
 
 @extends('layouts.app')
 
-
-
-@section('pre-content')
-    @include('partials.sections.discover-amazing-trips')
-    @include('partials.sections.find-your-adventure')
-    @include('partials.sections.form-discover-adventure')
+@section('content')
+  @while(have_posts()) @php(the_post())
+  @include('partials.sections.discover-amazing-trips')
+  @endwhile
 @endsection
 
 
-
-@section('content')
-  @while(have_posts()) @php(the_post())
-    @include('partials.content-page')
-  @endwhile
+@section('post-content')
+  @include('partials.sections.find-your-adventure')
+  @include('partials.sections.form-discover-adventure')
 @endsection
