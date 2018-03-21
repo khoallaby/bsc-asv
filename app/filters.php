@@ -76,3 +76,19 @@ add_filter( 'nav_menu_link_attributes', function($atts) {
     $atts['class'] = "nav-link";
     return $atts;
 }, 100, 1 );
+
+
+/**
+ * Displays the sidebar on various pages
+ */
+add_filter('sage/display_sidebar', function ($display) {
+    static $display;
+
+    isset($display) || $display = in_array(true, [
+        // The sidebar will be displayed if any of the following return true
+        is_single(),
+        is_home(),
+    ]);
+
+    return $display;
+});
