@@ -68,6 +68,13 @@ add_action('after_setup_theme', function () {
      * @see resources/assets/styles/layouts/_tinymce.scss
      */
     add_editor_style(asset_path('styles/main.css'));
+
+
+    /**
+     * Add custom image sizes
+     */
+    add_image_size( 'small', 480, 0 );
+    add_image_size( 'featured-image-blog', 855, 0 );
 }, 20);
 
 /**
