@@ -1,0 +1,1 @@
+<a href="#" class="btn btn-primary {{ $color or '' }}">Book Your Adventure</a>

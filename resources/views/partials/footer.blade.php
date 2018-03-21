@@ -14,7 +14,7 @@
           Adventure Sun Valley<br />
           374 Wolverine Ct., Richland Wa 99352<br />
         </p>
-        <a href="#" class="btn btn-primary">BOOK YOUR ADVENTURE</a>
+        @include('partials.book-your-adventure')
       </div>
       <div class="col-6">
         <nav class="nav-footer">
