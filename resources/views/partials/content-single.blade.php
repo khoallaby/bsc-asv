@@ -1,6 +1,12 @@
 <article @php(post_class())>
   <header>
-    <h1 class="entry-title">{{ get_the_title() }}</h1>
+    @php
+      echo get_the_post_thumbnail( $post->ID, 'featured-image-blog', array(
+          'class' => 'img-fluid',
+          //'srcset' => ''
+      ) );
+    @endphp
+    <h2 class="entry-title">{{ get_the_title() }}</h2>
     @include('partials/entry-meta')
   </header>
   <div class="entry-content">
