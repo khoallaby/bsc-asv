@@ -5,7 +5,7 @@
   </div>
   <div class="container footer-content">
     <div class="row">
-      <div class="col-2"><img src="@asset('images/logo-footer.png')" /></div>
+      <div class="col-2"><img src="@asset('images/logo-footer.png')" class="img-fluid"/></div>
       <div class="col-4 contact-us-text">
         <h3>CONTACT US</h3>
         <p>
