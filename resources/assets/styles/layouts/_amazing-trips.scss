@@ -1,0 +1,49 @@
+/* index */
+
+section.discover-amazing-trips {
+  margin-bottom: 45px;
+  h2 {
+    color: theme-color("green-color");
+    font-size: 42px;
+    text-align: center;
+  }
+  .amazing-trip {
+    h3 {
+      color: theme-color("blue-primary");
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+
+    }
+    &:hover, &.active { background-color: #f2f2f2; }
+    min-height: 150px;
+    text-align: center;
+
+  }
+}
+
+/* single */
+
+
+section.pampered-camping {
+  //background: url("../images/background-discover-adventure.jpg") center;
+  h2 { text-align: center; }
+  p {
+    color: #fff;
+    line-height: 1.556;
+  }
+}
+
+
+
+section.river-menus {
+
+  .river-menu {
+    text-align: center;
+    padding: 50px 0;
+    h2 { color: white; }
+    &.blue { background-color: theme-color("teal-color"); }
+    &.green { background-color: theme-color("green-color"); }
+    &.orange { background-color: theme-color("orange-color"); }
+  }
+}
