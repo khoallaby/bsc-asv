@@ -16,15 +16,36 @@
             </div>
         </div>
         <div class="row no-gutters">
-
-            @for ($i = 0; $i < 5; $i++)
             <div class="col amazing-trip">
-                <a href="#">
+                <a href="{{ home_url('rafting') }}">
                     <img src="@asset('images/icons/rafting.png')" />
-                    <h3>{{ $i+1 }} - 6 DAY RAFTING</h3>
+                    <h3>6 Day Rafting</h3>
                 </a>
             </div>
-            @endfor
+            <div class="col amazing-trip">
+                <a href="{{ home_url('fishing') }}">
+                    <img src="@asset('images/icons/fishing.png')" />
+                    <h3>Trout Fishing</h3>
+                </a>
+            </div>
+            <div class="col amazing-trip">
+                <a href="#">
+                    <img src="@asset('images/icons/kayak.png')" />
+                    <h3>Kayak Support Trips</h3>
+                </a>
+            </div>
+            <div class="col amazing-trip">
+                <a href="#">
+                    <img src="@asset('images/icons/cast-blast.png')" />
+                    <h3>Cast & Blast</h3>
+                </a>
+            </div>
+            <div class="col amazing-trip">
+                <a href="#">
+                    <img src="@asset('images/icons/group-specialty.png')" />
+                    <h3>Group & Specialty</h3>
+                </a>
+            </div>
         </div>
     </div>
 </section>

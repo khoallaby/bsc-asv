@@ -44,6 +44,7 @@ section.discover-adventure {
 /* section - discover y/our amazing trips */
 
 section.discover-amazing-trips {
+  margin-bottom: 45px;
   h2 {
     color: theme-color("green-color");
     font-size: 42px;
@@ -57,8 +58,8 @@ section.discover-amazing-trips {
       text-transform: uppercase;
 
     }
-    &:hover { background-color: #f2f2f2; }
-    min-height: 105px;
+    &:hover, &.active { background-color: #f2f2f2; }
+    min-height: 150px;
     text-align: center;
 
   }
