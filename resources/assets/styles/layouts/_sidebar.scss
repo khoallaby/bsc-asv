@@ -1,0 +1,21 @@
+aside.sidebar {
+  .widget {
+    margin-bottom: 50px;
+    h3 {
+      border-bottom: 4px solid theme-color("primary");
+      color: theme-color("orange-color");
+      font-size: 42px;
+      margin-bottom: 0;
+      padding-bottom: 15px;
+    }
+    ul {
+      padding-left: 0;
+      li {
+        border-bottom: 1px solid #b8b8c0;
+        color: black;
+        list-style: none;
+        padding: 5px 0;
+      }
+    }
+  }
+}
