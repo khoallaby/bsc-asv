@@ -2,4 +2,11 @@ body.blog {
   .content h2 a {
     color: theme-color("green-color");
   }
+
+
+  .entry-meta {
+    color: theme-color("blue-light");
+    font-size: 15px;
+  }
 }
+

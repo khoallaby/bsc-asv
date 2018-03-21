@@ -2,7 +2,7 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #ff9b00,
+  primary: #143e4d,
 
   blue-primary: #143e4d,
   blue-light: #525d6f,
@@ -20,8 +20,7 @@ $theme-colors: (
 $image-dir: '../images/';
 
 $primary-color: theme-color("primary");
-//$body-color: #0d0d0d;
-$link-color: $primary-color;
+$link-color: theme-color("blue-primary");
 $font-family: 'Roboto Condensed', sans-serif;
 $font-family-header: 'Saira Extra Condensed', sans-serif;
 
