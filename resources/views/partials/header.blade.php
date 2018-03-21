@@ -77,7 +77,9 @@
       </div>
     </nav>
   </div>
-
+  @if (!is_front_page())
+    @include('partials.featured-image')
+  @endif
 </header>
 
 
