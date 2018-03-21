@@ -41,7 +41,11 @@ section.river-menus {
   .river-menu {
     text-align: center;
     padding: 50px 0;
-    h2 { color: white; }
+    h2 {
+      color: white;
+      margin-bottom: 25px;
+    }
+    .river-menu-logo { margin-bottom: 25px; }
     &.blue { background-color: theme-color("teal-color"); }
     &.green { background-color: theme-color("green-color"); }
     &.orange { background-color: theme-color("orange-color"); }
