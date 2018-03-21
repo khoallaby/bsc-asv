@@ -39,32 +39,35 @@
 
 
 
-header nav {
-  ul li {
-    a {
-      color: theme-color("blue-primary");
-      font-size: 24px;
-      font-weight: bold;
+header {
+  nav {
+    ul li {
+      a {
+        color: theme-color("blue-primary");
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      &:hover {
+        border-bottom: 4px solid theme-color("teal-color");
+      }
+      border-bottom: 4px solid transparent;
+    }
+
+    &.navbar {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .featured-image {
+    height: 240px;
+    margin-bottom: 70px;
+    h1 {
+      color: white;
+      font-size: 70px;
+      text-align: center;
       text-transform: uppercase;
     }
-    &:hover {
-      border-bottom: 4px solid theme-color("teal-color");
-    }
-    border-bottom: 4px solid transparent;
-  }
-
-  &.navbar {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.featured-image {
-  height: 240px;
-  h1 {
-    color: white;
-    font-size: 70px;
-    text-align: center;
-    text-transform: uppercase;
   }
 }
