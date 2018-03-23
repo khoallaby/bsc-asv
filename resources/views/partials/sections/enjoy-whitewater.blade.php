@@ -8,7 +8,6 @@
                 </div>
                 <div class="col-8">
                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tinreet dolore magna aliquam erat volutpat.</p>
-                  @include('partials.header-adventure', [ 'title' => 'Find Your' ])
                   @include('partials.book-your-adventure', [ 'color' => 'white' ])
                 </div>
 
