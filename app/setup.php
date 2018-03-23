@@ -75,6 +75,7 @@ add_action('after_setup_theme', function () {
      */
     add_image_size( 'small', 480, 0 );
     add_image_size( 'featured-image-blog', 855, 0 );
+    add_image_size( 'staff-thumbnail', 135, 135, true );
 }, 20);
 
 /**
