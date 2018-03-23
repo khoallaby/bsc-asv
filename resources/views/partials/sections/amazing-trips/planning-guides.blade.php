@@ -7,30 +7,20 @@
       </div>
     </div>
     <div class="row">
+      @php
+      if( have_rows('planning_guides') ):
+        while ( have_rows('planning_guides') ) : the_row();
+      @endphp
       <div class="col-md-3 planning-guide">
-        <a href="#">
-          <img src="@asset('images/icons/planning-guide.png')" class="img-fluid" /><br />
-          <h3>Which season is right for me</h3>
+        <a href="{{ get_sub_field('file') }}">
+          <img src="@asset('images/icons/planning-guide.png')" /><br />
+          <h3>{{ get_sub_field('title') }}</h3>
         </a>
       </div>
-      <div class="col-md-3 planning-guide">
-        <a href="#">
-          <img src="@asset('images/icons/planning-guide.png')" class="img-fluid" /><br />
-          <h3>Which season is right for me</h3>
-        </a>
-      </div>
-      <div class="col-md-3 planning-guide">
-        <a href="#">
-          <img src="@asset('images/icons/planning-guide.png')" class="img-fluid" /><br />
-          <h3>Which season is right for me</h3>
-        </a>
-      </div>
-      <div class="col-md-3 planning-guide">
-        <a href="#">
-          <img src="@asset('images/icons/planning-guide.png')" class="img-fluid" /><br />
-          <h3>Which season is right for me</h3>
-        </a>
-      </div>
+    @php
+      endwhile;
+    endif;
+    @endphp
     </div>
     <div class="row">
       <div class="col">
