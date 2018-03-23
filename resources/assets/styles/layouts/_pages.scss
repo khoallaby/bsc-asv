@@ -33,6 +33,7 @@ section.asv-guides-staff {
 
   }
   img.staff-pic {
+    border: 5px solid #cbcccd;
     border-radius: 100px;
     height: 135px;
     //position: relative;
@@ -49,3 +50,21 @@ section.asv-guides-staff {
     font-size: 18px;
   }
 }
+
+
+
+
+section.about-travel-info {
+  background-color: theme-color("primary");
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p { margin-bottom: 30px; }
+}
+
+
+
