@@ -10,11 +10,16 @@
       $staff = sage::get_posts( 'asv-staff' );
       @endphp
 
-        @foreach( $staff as $s )
+      @foreach( $staff as $s )
+        @php
+        $staff_picture = get_field( 'staff_picture', $s->ID );
+        $staff_picture_url = $staff_picture['sizes']['staff-thumbnail'];
+        @endphp
+
         <div class="col-md-3">
           <div class="asv-staff-container">
             <div class="asv-staff">
-              <img src="@asset('images/icons/planning-guide.png')" class="staff-pic" height="135" width="135" />
+              <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
               <h3 class="staff-name">{{ $s->post_title }}</h3>
               <h4 class="staff-position">{{ get_field( 'staff_position', $s->ID ) }}</h4>
               <p class="bio-short">{{ $s->post_excerpt }}</p>
@@ -26,7 +31,7 @@
             </div>
           </div>
         </div>
-        @endforeach
+      @endforeach
 
     </div>
   </div>
