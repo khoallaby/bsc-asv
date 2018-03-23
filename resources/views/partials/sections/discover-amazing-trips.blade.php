@@ -1,4 +1,4 @@
-<section class="container-fluid discover-amazing-trips">
+<section class="container-fluid content-top discover-amazing-trips">
     <div class="container">
         <div class="row">
             <div class="col-12">
