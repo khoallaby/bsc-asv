@@ -8,16 +8,18 @@
 
 @section('content')
   @while(have_posts()) @php(the_post())
-    <h2>Amazing {{ the_title() }}</h2>
-    <div class="row">
-      <div class="col-md-2">ICON</div>
-      <div class="col-md-10">
-        {{ the_content() }}
-        <div class="text-center">
-          @include('partials.book-your-adventure')
+    <section class="content-top">
+      <h2>Amazing {{ the_title() }}</h2>
+      <div class="row">
+        <div class="col-md-2">ICON</div>
+        <div class="col-md-10">
+          {{ the_content() }}
+          <div class="text-center">
+            @include('partials.book-your-adventure')
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   @endwhile
 @endsection
 
