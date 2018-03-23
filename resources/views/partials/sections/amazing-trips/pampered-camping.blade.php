@@ -1,4 +1,4 @@
-<section class="container-fluid pampered-camping no-gutters">
+<section class="container-fluid pampered-camping no-gutters vcenter">
   <div class="container">
     <div class="row">
       <div class="col-12">
