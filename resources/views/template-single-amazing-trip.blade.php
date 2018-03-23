@@ -11,7 +11,7 @@
     <section class="content-top">
       <h2>Amazing {{ the_title() }}</h2>
       <div class="row">
-        <div class="col-md-2">ICON</div>
+        <div class="col-md-2"><img src="{{ get_field('icon') }}" class="img-fluid" /></div>
         <div class="col-md-10">
           {{ the_content() }}
           <div class="text-center">
@@ -25,7 +25,7 @@
 
 
 @section('post-content')
-  @include('partials.sections.amazing-trips.amazing-trip-images')
+  @include('partials.sections.amazing-trips.amazing-trip-gallery')
   @include('partials.sections.amazing-trips.pampered-camping')
   @include('partials.sections.amazing-trips.river-menu')
   @include('partials.sections.amazing-trips.planning-guides')
