@@ -16,8 +16,36 @@ body.template-about {
   }
 }
 
-
+/* about - asv guide/staff */
 section.asv-guides-staff {
   background-color: #f0f3f3;
   padding: 75px 0 90px;
+}
+
+.asv-staff-container {
+  background-color: white;
+  border-top: 4px solid theme-color("teal-color");
+  margin-bottom: 80px;
+  text-align: center;
+  .asv-staff {
+    position: relative;
+    top: -67.5px;
+
+  }
+  img.staff-pic {
+    border-radius: 100px;
+    height: 135px;
+    //position: relative;
+    //top: -67.5px;
+    width: 135px;
+  }
+  h3.staff-name {
+    color: theme-color("orange-color");
+    font-size: 25px;
+  }
+  h4.staff-position {
+    font-weight: 400;
+    color: theme-color("blue-light");
+    font-size: 18px;
+  }
 }
