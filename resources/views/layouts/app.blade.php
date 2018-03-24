@@ -7,13 +7,16 @@
     @yield('pre-content')
     <div class="wrap container" role="document">
       <div class="row content">
+        @if (App\display_sidebar() && is_page_template( 'views/template-sidebar.blade.php' ))
+          @include('partials.sidebar')
+        @endif
+
         <main class="main {{ App\display_sidebar() ? 'col-md-9' : 'col-12' }}">
           @yield('content')
         </main>
-        @if (App\display_sidebar())
-          <aside class="sidebar col-md-3">
-            @include('partials.sidebar')
-          </aside>
+
+        @if (App\display_sidebar() && (is_home() || is_single()) )
+          @include('partials.sidebar')
         @endif
       </div>
     </div>
