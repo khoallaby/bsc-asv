@@ -2,7 +2,7 @@
 
 @section('pre-content')
   @php
-    echo get_field('content_top') ? sprintf( '<section class="content-top">%s</section>', get_field('content_top') ) : '';
+    echo get_field('content_top') ? sprintf( '<section class="container content-top">%s</section>', get_field('content_top') ) : '';
   @endphp
 @endsection
 
