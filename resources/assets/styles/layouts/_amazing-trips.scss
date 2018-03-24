@@ -22,6 +22,27 @@ section.discover-amazing-trips {
   }
 }
 
+/* find your adventure */
+section.find-your-adventure {
+
+  .fya-background, .fya-content {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+  }
+  .fya-content {
+    color: white;
+    text-align: center;
+    h2 {
+      color: white;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+    .pad { padding: 20px; }
+  }
+}
+
 /* single */
 
 section.amazing-trip-gallery {

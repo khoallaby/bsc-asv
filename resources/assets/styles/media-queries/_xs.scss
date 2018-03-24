@@ -3,9 +3,21 @@
 
 @media only screen and (max-width : 480px) {
 
+  .hide-xxs { display: none; }
+  .show-xxs { display: block; }
+  .find-your-adventure .row.row-eq-height { display: inherit; }
+  .fya-background { background-image: none !important;  }
+
 }
 
 
+
+@media only screen and (min-width : 481px) {
+
+  .hide-xxs { display: block; }
+  .show-xxs { display: none; }
+  .fya-background img { display: none; }
+}
 
 @media only screen and (max-width : 767px) {
   .flex,

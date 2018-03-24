@@ -18,6 +18,12 @@
 
 @media only screen and (min-width : 992px) {
 
+  /* find your adventure */
+  section.find-your-adventure {
+    .fya-content {
+      .pad { padding: 75px; }
+    }
+  }
 }
 
 @media only screen and (min-width : 1200px) {
