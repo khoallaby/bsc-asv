@@ -39,6 +39,15 @@ section.discover-adventure {
   }
   form {
     text-align: center;
+    input[type="text"], textarea {
+      background-color: rgba(255, 255, 255, .8);
+      border: none;
+      color: theme-color("blue-light");
+      font-size: 16px;
+    }
+    textarea {
+      width: 100%;
+    }
   }
   background: url("../images/background-discover-adventure.jpg") center;
   padding-top: 450px;
