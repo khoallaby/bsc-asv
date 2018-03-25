@@ -74,9 +74,11 @@ section.discover-adventure {
       margin-top: 0;
     }
 
-    .gform_button {
+    .gform_button,
+    input[type="submit"]{
       border-color: white;
       color: white;
+      width: 33%;
     }
 
     .gform_footer {
