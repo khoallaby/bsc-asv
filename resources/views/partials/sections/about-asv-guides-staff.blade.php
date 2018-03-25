@@ -16,7 +16,7 @@
         $staff_picture_url = $staff_picture['sizes']['staff-thumbnail'];
         @endphp
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="asv-staff-container">
             <div class="asv-staff">
               <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
