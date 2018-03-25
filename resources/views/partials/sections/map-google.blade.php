@@ -1,5 +1,13 @@
 <section class="container-fluid map-google">
   <div class="row">
-    {{-- google maps--}}
+    <div class="col-12">
+      <div class="acf-map">
+          <?php if( $location = get_field('google_maps_location') ) : ?>
+        <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>">
+          <p class="address"><?php echo $location['address']; ?></p>
+        </div>
+          <?php endif; ?>
+      </div>
+    </div>
   </div>
 </section>
