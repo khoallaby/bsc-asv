@@ -78,6 +78,15 @@ add_action('after_setup_theme', function () {
     add_image_size( 'staff-thumbnail', 135, 135, true );
     add_image_size( 'gallery-square-thumbnail', 320, 320, true );
     add_image_size( 'gallery-rectangle-thumbnail', 640, 320, true );
+
+
+    /**
+     * Add ACF options page
+     */
+    if( function_exists('acf_add_options_page') ) {
+        acf_add_options_page();
+    }
+
 }, 20);
 
 /**
