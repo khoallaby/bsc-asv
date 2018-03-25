@@ -4,7 +4,7 @@ namespace App;
   $h1 = App::title();
   $image = get_the_post_thumbnail_url( $post->ID, 'full' );
   //$default = get_field( 'default_header_image', 'options' );
-  $default = $default_blog = asset_path('images/header/blog.jpg');
+  $default = $default_blog = asset_path('images/featured-blog.jpg');
 
   $extra_style = '';
   $extra_style = 'background-size: cover;';
