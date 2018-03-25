@@ -69,3 +69,15 @@ section.about-travel-info {
 
 
 
+
+/* Contact Page */
+body.page.contact {
+  .gform_wrapper {
+    label { text-transform: uppercase}
+    .gform_title { color: theme-color("orange-color"); }
+
+    ul li.gfield { margin-top: 5px; }
+    div.ginput_container{ margin-top: 0; }
+  }
+}
+
