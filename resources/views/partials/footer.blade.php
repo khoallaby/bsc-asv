@@ -23,9 +23,7 @@
           @endif
         </nav>
         <div class="footer-social-links text-right">
-          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+          @include('partials.social-media')
         </div>
         <div class="footer-copyright">&copy; {{ date('Y') }} Adventure Sun Valley</div>
       </div>

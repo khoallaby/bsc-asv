@@ -7,16 +7,14 @@
       <div class="row">
         <div class="col">
           Let’s Connect
-          <a href="#"><i class="fa fa-facebook-official"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+          @include('partials.social-media')
         </div>
         <div class="col text-right">
           Contact Us!
           <i class="fa fa-phone" aria-hidden="true"></i>
-          <a href="tel:208-507-1012">208.507.1012</a>
+          <spans class="phone">{{ get_field('phone_number', 'options') }}</spans>
         </div>
-      </div>
+      </div>F
 
     </div>
   </div>
