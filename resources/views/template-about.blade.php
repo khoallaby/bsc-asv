@@ -20,7 +20,6 @@
 
 @section('post-content')
   @include('partials.sections.about-asv-guides-staff')
-  @include('partials.header-adventure', [ 'title' => 'Follow the' ])
   @include('partials.sections.about-travel-info')
   @include('partials.sections.map-google')
   @include('partials.sections.map-salmon-river')
