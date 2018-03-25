@@ -79,8 +79,14 @@ body.page.contact {
     label { text-transform: uppercase}
     .gform_title { color: theme-color("orange-color"); }
 
-    ul li.gfield { margin-top: 5px; }
+    ul li.gfield {
+      //display: inline-block;
+      margin-top: 5px;
+    }
     div.ginput_container{ margin-top: 0; }
+
+    .gform_footer{
+      text-align: center;
+    }
   }
 }
-
