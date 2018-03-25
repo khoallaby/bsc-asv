@@ -31,8 +31,13 @@ section.header-adventure {
 /* form - discover adventure */
 
 section.discover-adventure {
+  background: url("../images/background-discover-adventure.jpg") center;
+  padding-top: 450px;
+  height: 709px; //259px;
+
   h2 {
     color: #54d5f7;
+    margin: auto;
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -49,9 +54,36 @@ section.discover-adventure {
       width: 100%;
     }
   }
-  background: url("../images/background-discover-adventure.jpg") center;
-  padding-top: 450px;
-  height: 709px; //259px;
+
+  /* g form specific */
+  .gform_wrapper {
+    .gform_heading,
+    .gfield label
+    { display: none !important; }
+
+    ul li.gfield {
+      display: inline-block;
+      margin-top: 0;
+      padding: 3px;
+      input {
+        width: 100%;
+      }
+    }
+
+    div.ginput_container {
+      margin-top: 0;
+    }
+
+    .gform_button {
+      border-color: white;
+      color: white;
+    }
+
+    .gform_footer {
+      padding-top: 0;
+    }
+  }
+
 }
 
 
