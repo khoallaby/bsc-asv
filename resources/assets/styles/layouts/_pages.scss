@@ -20,13 +20,18 @@ body.template-about {
 section.asv-guides-staff {
   background-color: #f0f3f3;
   padding: 75px 0 90px;
+  text-align: center;
 }
 
 .asv-staff-container {
   background-color: white;
   border-top: 4px solid theme-color("teal-color");
+  height: calc(100% - 110px);
   margin-bottom: 80px;
   text-align: center;
+  top: 50px;
+  position: relative;
+
   .asv-staff {
     position: relative;
     top: -67.5px;
