@@ -73,6 +73,48 @@ section.about-travel-info {
 
 
 
+
+/* Faqs */
+
+.accordion {
+  .panel {
+    border: 1px solid #4f6e7a;
+    margin-bottom: 10px;
+  }
+  .panel-title {
+    background-color: #f9f9f9;
+    margin-bottom: 0;
+    > a {
+      display: block;
+      padding: 25px 20px;
+      &:before {
+        color: theme-color("green-color");
+        content: "-"; //"\f068";
+        float: right !important;
+        font-family: "FontAwesome";
+        padding-right: 5px;
+      }
+      &.collapsed:before {
+        content: "+"; //"\f067";
+        float: right !important;
+      }
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .panel-body {
+    border-top: 1px solid #4f6e7a;
+    padding: 40px 20px;
+  }
+}
+
+
+
+
 /* Contact Page */
 body.page.contact {
   .gform_wrapper {
