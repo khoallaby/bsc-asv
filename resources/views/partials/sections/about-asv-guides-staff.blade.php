@@ -23,10 +23,28 @@
               <h3 class="staff-name">{{ $s->post_title }}</h3>
               <h4 class="staff-position">{{ get_field( 'staff_position', $s->ID ) }}</h4>
               <p class="bio-short">{{ $s->post_excerpt }}</p>
-              <a href="#asv-staff-member-{{ $s->ID }}" class="btn btn-primary">Read More</a>
-              <div id="asv-staff-member-{{ $s->ID }}" class="container" style="display: none;">
-                <div class="title">{{ $s->post_title }} - {{ get_field( 'staff_position', $s->ID ) }}</div>
-                <div class="bio-long">{{ $s->post_content }}</div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#asv-staff-member-{{ $s->ID }}">Read More</button>
+
+              <div id="asv-staff-member-{{ $s->ID }}" class="modal bd-example-modal-lg asv-staff-modal container" {{--style="display: none;"--}}  tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">{{ $s->post_title }} - {{ get_field( 'staff_position', $s->ID ) }}</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body row">
+                      <div class="col-md-4">
+                        <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
+                      </div>
+                      <div class="col-md-8">
+                        {{ $s->post_content }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -36,3 +54,20 @@
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
