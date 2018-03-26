@@ -6,15 +6,15 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          Let’s Connect
+          Let's Connect
           @include('partials.social-media')
         </div>
         <div class="col text-right">
           Contact Us!
           <i class="fa fa-phone" aria-hidden="true"></i>
-          <spans class="phone">{{ get_field('phone_number', 'options') }}</spans>
+          <span class="phone">{{ get_field('phone_number', 'options') }}</span>
         </div>
-      </div>F
+      </div>
 
     </div>
   </div>
