@@ -45,9 +45,11 @@ header {
 
   nav {
     ul li {
+      margin-right: 24px;
       a {
         color: theme-color("blue-primary");
-        font-size: 24px;
+        font-family: $font-family-header;
+        font-size: 20px;
         font-weight: bold;
         text-transform: uppercase;
       }

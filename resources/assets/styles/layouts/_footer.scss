@@ -18,7 +18,10 @@ footer {
   }
 
   .contact-us-text {
+    font-family: $font-family-header;
     font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
     b, strong {
       color: theme-color("orange-color");
       font-weight: bold;
@@ -30,9 +33,15 @@ footer {
   }
 
   nav.nav-footer {
+    ul {
+      float: right;
+    }
     li {
       a {
+        font-family: $font-family-header;
         font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
       }
       /*&:first-child a { padding-left: 0; }*/
       &:last-child a {

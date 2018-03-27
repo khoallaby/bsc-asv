@@ -17,7 +17,9 @@ section.home-slider {
 section.header-adventure {
   .adventure-text {
     color: #fff;
+    font-family: $font-family-header;
     font-size: 58px;
+    font-weight: bold;
     padding-right: 25px;
     text-align: right;
     text-transform: uppercase;

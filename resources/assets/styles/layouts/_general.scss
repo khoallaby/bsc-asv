@@ -60,11 +60,14 @@ input[type="submit"].gform_button,
   //@include gradient-vertical(#48a23f, #6cc24a);
   //box-shadow: $shadow;
   border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
 
   &.white {
     //@include gradient-vertical($primary-color, #52b9e9);
     border-color: white;
     color: white;
+    font-family: $font-family-header;
   }
   .fa {
     font-size: 16px;
