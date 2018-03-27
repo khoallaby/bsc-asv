@@ -21,4 +21,9 @@
 
 /** Gravity forms */
 
-.gform_wrapper { margin: 16px auto; }
+.gform_wrapper {
+  margin: 16px auto;
+  .gform_button {
+    text-transform: uppercase;
+  }
+}
