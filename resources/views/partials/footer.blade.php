@@ -23,7 +23,7 @@
           @endif
         </nav>
         <div class="footer-social-links text-right">
-          @include('partials.social-media')
+          @include('partials.social-media', [ 'footer' => true ])
         </div>
         <div class="footer-copyright">&copy; {{ date('Y') }} Adventure Sun Valley</div>
       </div>
