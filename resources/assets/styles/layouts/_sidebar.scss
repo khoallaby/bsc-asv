@@ -24,6 +24,11 @@ aside.sidebar {
     h4, .fa {
       color: theme-color("orange-color");
     }
+    h4, .fa, p {
+      font-family: $font-family-header;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
   }
 }

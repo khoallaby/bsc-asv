@@ -59,6 +59,8 @@ input[type="submit"].gform_button,
   //@include rounded-corners('all', 17px);
   //@include gradient-vertical(#48a23f, #6cc24a);
   //box-shadow: $shadow;
+  background:transparent;
+  border: 2px solid inherit;
   border-radius: 0;
   font-weight: bold;
   text-transform: uppercase;
@@ -68,6 +70,9 @@ input[type="submit"].gform_button,
     border-color: white;
     color: white;
     font-family: $font-family-header;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
   }
   .fa {
     font-size: 16px;

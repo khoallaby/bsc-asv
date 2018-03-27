@@ -69,7 +69,9 @@ footer {
   .footer-frei-inc {
     background-color: theme-color("orange-color");
     color: #fff;
+    font-family: $font-family-header;
     font-size: 14px;
+    font-weight:bold;
     padding: 5px 0;
     text-align: center;
   }
