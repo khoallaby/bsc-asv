@@ -5,8 +5,8 @@
   </div>
   <div class="container footer-content">
     <div class="row">
-      <div class="col-2"><img src="@asset('images/logo-footer.png')" class="img-fluid"/></div>
-      <div class="col-4 contact-us-text">
+      <div class="col-md-2"><img src="@asset('images/logo-footer.png')" class="img-fluid"/></div>
+      <div class="col-md-4 contact-us-text">
         <h3>CONTACT US</h3>
         <p>
           <strong>T</strong> 208.507.1012<br />
@@ -16,7 +16,7 @@
         </p>
         @include('partials.book-your-adventure')
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <nav class="nav-footer">
           @if (has_nav_menu('footer_navigation'))
             {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav']) !!}
