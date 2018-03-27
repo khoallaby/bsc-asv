@@ -35,7 +35,7 @@
                 </a>
             </div>
             <div class="col amazing-trip">
-                <a href="{{ home_url('our-amazing-trips/cast-last') }}">
+                <a href="{{ home_url('our-amazing-trips/cast-blast') }}">
                     <img src="@asset('images/icons/cast-blast.png')" />
                     <h3>Cast & Blast</h3>
                 </a>
