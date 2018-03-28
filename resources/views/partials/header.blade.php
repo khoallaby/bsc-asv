@@ -42,9 +42,12 @@
 
         @php
           $nav_args_left = [
-              'container' => 'ul',
-              'menu_class' => 'navbar-nav',
-              'theme_location' => 'primary_navigation_left',
+            'container'       => 'ul',
+            'menu_class'      => 'navbar-nav mr-auto',
+            'theme_location'  => 'primary_navigation_left',
+            'depth'           => 2,
+            'fallback_cb'     => 'bs4navwalker::fallback',
+            'walker'          => new bs4navwalker()
          ];
         @endphp
 
@@ -56,9 +59,12 @@
 
         @php
           $nav_args_right = [
-              'container' => 'ul',
-              'menu_class' => 'navbar-nav ml-auto',
-              'theme_location' => 'primary_navigation_right',
+            'container' => 'ul',
+            'menu_class' => 'navbar-nav ml-auto',
+            'theme_location' => 'primary_navigation_right',
+            'depth'           => 2,
+            'fallback_cb'     => 'bs4navwalker::fallback',
+            'walker'          => new bs4navwalker()
          ];
         @endphp
 
