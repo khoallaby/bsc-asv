@@ -4,14 +4,12 @@
             <div class="col-12">
                 @php
                 if( is_page_template( 'views/template-amazing-trips.blade.php' ) ) {
-                    $title = 'DISCOVER YOUR AMAZING TRIP';
                     $body = get_the_content(); // todo: fix
                 } else {
                     $title = 'DISCOVER OUR AMAZING TRIPS';
-                    $body = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore ver it.';
+                    $body = get_the_content();
                 }
                 @endphp
-                <h2>{{ $title }}</h2>
                 <p>{{ $body }}</p>
             </div>
         </div>
