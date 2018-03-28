@@ -31,4 +31,11 @@ aside.sidebar {
     }
 
   }
+
+
+  &.sidebar-blog {
+    .widget-follow-us {
+      font-size: 40px;
+    }
+  }
 }
