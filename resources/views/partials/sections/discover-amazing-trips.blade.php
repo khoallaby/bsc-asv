@@ -4,12 +4,11 @@
             <div class="col-12">
               @php
                 if( is_page_template( 'views/template-amazing-trips.blade.php' ) ) {
-                    $body = get_the_content(); // todo: fix
+                    if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
                 } else {
                     if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
                 }
               @endphp
-                <p>{{ $body }}</p>
             </div>
         </div>
         <div class="row no-gutters">
