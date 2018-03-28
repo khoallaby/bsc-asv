@@ -10,7 +10,7 @@
                     $body = get_the_content();
                 }
                 @endphp
-                <p>{{ $body }}</p>
+                the_content();
             </div>
         </div>
         <div class="row no-gutters">
