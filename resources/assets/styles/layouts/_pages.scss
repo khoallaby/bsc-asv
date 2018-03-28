@@ -29,11 +29,15 @@ section.asv-guides-staff {
 .asv-staff-container {
   background-color: white;
   border-top: 4px solid theme-color("teal-color");
-  height: calc(100% - 110px);
-  margin-bottom: 80px;
+  height: calc(100% - 80px);
+  margin-bottom: 30px;
   text-align: center;
   top: 50px;
   position: relative;
+
+  h2 {
+    margin-bottom: 50px;
+  }
 
   .asv-staff {
     position: relative;
