@@ -2,14 +2,6 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                @php
-                if( is_page_template( 'views/template-amazing-trips.blade.php' ) ) {
-                    $body = get_the_content(); // todo: fix
-                } else {
-                    $title = 'DISCOVER OUR AMAZING TRIPS';
-                    $body = get_the_content();
-                }
-                @endphp
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
             </div>
         </div>
