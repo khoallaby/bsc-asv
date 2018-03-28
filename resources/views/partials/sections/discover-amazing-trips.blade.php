@@ -9,7 +9,7 @@
                     $title = 'DISCOVER OUR AMAZING TRIPS';
                     $body = get_the_content();
                 }
-                if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
+                
                 @endphp
                 
             </div>
