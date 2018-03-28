@@ -2,7 +2,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
+              @php
+                if( is_page_template( 'views/template-amazing-trips.blade.php' ) ) {
+                    $body = get_the_content(); // todo: fix
+                } else {
+                    $title = 'DISCOVER OUR AMAZING TRIPS';
+                    $body = get_the_content();
+                }
+                if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
+                @endphp
+                
             </div>
         </div>
         <div class="row no-gutters">
