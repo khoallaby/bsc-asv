@@ -7,6 +7,17 @@ body.blog {
   .entry-meta {
     color: theme-color("blue-light");
     font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    article {
+      margin-bottom: 100px;
+      .featured-image-single-post { margin-bottom: 35px; }
+    }
+    .posts-navigation {
+      margin-bottom: 80px;
+    }
   }
 }
 

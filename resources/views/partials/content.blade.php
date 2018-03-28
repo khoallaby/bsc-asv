@@ -3,7 +3,7 @@
   <header>
       @php
       echo get_the_post_thumbnail( $post->ID, 'featured-image-blog', array(
-          'class' => 'img-fluid',
+          'class' => 'img-fluid featured-image-single-post',
           //'srcset' => ''
       ) );
       @endphp
@@ -12,5 +12,6 @@
   </header>
   <div class="entry-summary">
     @php(the_excerpt())
+    <a href="{{ get_permalink() }}" class="btn btn-primary">Read More</a>
   </div>
 </article>
