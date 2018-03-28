@@ -9,7 +9,7 @@
         $image = get_sub_field('image');
     ?>
     <div class="col-sm-6 col-md-4 col-lg-2">
-      <img src="{{ $image['sizes']['gallery-square-thumbnail'] }}" class="img-fluid" />
+      <a href="https://www.instagram.com/middleforksalmonriverrafting/" target="_blank"><img src="{{ $image['sizes']['gallery-square-thumbnail'] }}" class="img-fluid" /></a>
     </div>
     <?php
       endwhile;
