@@ -3,12 +3,7 @@
         <div class="row">
             <div class="col-12">
               @php
-                if( is_page_template( 'views/template-amazing-trips.blade.php' ) ) {
-                    $title = 'DISCOVER OUR AMAZING TRIPS';
-                    $body = get_the_content();
-                } else {
-                    if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
-                }
+                if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif;
               @endphp
               
               <h2>{{$title}}</h2>
