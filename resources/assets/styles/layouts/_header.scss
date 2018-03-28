@@ -57,6 +57,10 @@ header {
       &:hover { border-bottom: 4px solid theme-color("teal-color"); }
 
       /* dropdown menus */
+
+      &.dropdown:hover > .dropdown-menu {
+        display: block;
+      }
       .dropdown-menu {
         background-color: theme-color("primary");
         border: none;
