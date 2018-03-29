@@ -13,12 +13,14 @@
 /* Let's Connect bar  */
 
 .header-contact {
+  background-color: theme-color("blue-primary");
+  color: theme-color("orange-color");
+  font-family: $font-family-header;
+  padding:4px;
+  text-transform: uppercase;
   a, .fa, .phone {
     color: white;
   }
-  background-color: theme-color("blue-primary");
-  color: theme-color("orange-color");
-  text-transform: uppercase;
 }
 .navbar-brand {
   z-index: 10;
