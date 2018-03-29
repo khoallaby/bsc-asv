@@ -58,25 +58,6 @@ header {
       }
       &:hover { border-bottom: 4px solid theme-color("teal-color"); }
 
-      /* dropdown menus */
-
-      &.dropdown:hover > .dropdown-menu {
-        display: block;
-      }
-      .dropdown-menu {
-        background-color: theme-color("primary");
-        border: none;
-        border-radius: 0;
-        //margin-top: 12px;
-        padding: 0;
-        a {
-          border-top: 1px solid #15505e;
-          color: theme-color("teal-color");
-          &:first-child { border-top: none; }
-          &:hover { background-color: #15505e;  }
-        }
-
-      }
     }
 
     &.navbar {
