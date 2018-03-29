@@ -8,7 +8,6 @@
                 </div>
                 <div class="col-md-8">
                   {{ the_field('enjoy_5050_left_content') }}
-                  @include('partials.book-your-adventure', [ 'color' => 'white' ])
                 </div>
 
             </div>
