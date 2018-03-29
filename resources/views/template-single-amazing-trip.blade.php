@@ -14,9 +14,6 @@
         <div class="col-md-2"><img src="{{ get_field('icon') }}" class="img-fluid" /></div>
         <div class="col-md-10">
           {{ the_content() }}
-          <div class="text-center">
-            @include('partials.book-your-adventure')
-          </div>
         </div>
       </div>
     </section>
