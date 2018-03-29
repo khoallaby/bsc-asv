@@ -2,8 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 planning-guide-content">
-        <h2>Planning Guides</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore ver it.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet d.</p>
+        <?php the_field('planning_guides_intro'); ?>
       </div>
     </div>
     <div class="row">
