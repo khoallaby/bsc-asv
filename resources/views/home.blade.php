@@ -5,11 +5,12 @@
     <div class="row">
       <div class="col">
         <h2>BLOG POST HEADLINE</h2>
-        <p>BLog page intor.. natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ip vol utpat n hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
+        @php
+          echo get_field('content_top', (int)get_option( 'page_for_posts' )) ? sprintf( '<section class="container content-top">%s</section>', get_field('content_top', (int)get_option( 'page_for_posts' )) ) : '';
+        @endphp
       </div>
     </div>
   </section>
-
 @endsection
 
 
