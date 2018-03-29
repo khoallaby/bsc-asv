@@ -7,7 +7,7 @@
                     <img src="@asset('images/logo-white.png')" class="img-fluid" />
                 </div>
                 <div class="col-md-8">
-                  <p>{{ the_field('enjoy_5050_left_content') }}</p>
+                  {{ the_field('enjoy_5050_left_content') }}
                   @include('partials.book-your-adventure', [ 'color' => 'white' ])
                 </div>
 
