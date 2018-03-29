@@ -130,7 +130,7 @@ function center_map( map ) {
 	{
 		// set center of map
 	    map.setCenter( bounds.getCenter() );
-	    map.setZoom( 16 );
+	    map.setZoom( 12 );
 	}
 	else
 	{
