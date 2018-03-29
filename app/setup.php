@@ -154,14 +154,13 @@ add_action('after_setup_theme', function () {
 /**
  * Add gmaps api key to acf
  */
-function sage_acf_init() {
-    acf_update_setting('google_api_key', get_field( 'google_maps_api_key', 'option' ));
-}
-add_action('acf/init', 'sage_acf_init');
+add_action('acf/init', function () {
+    $api_key = get_field( 'google_maps_api_key', 'option' );
+    acf_update_setting('google_api_key', $api_key );
+});
 
 
-function sage_acf_google_map_api( $api ){
+add_filter('acf/fields/google_map/api', function () {
     $api['key'] = get_field( 'google_maps_api_key', 'option' );
     return $api;
-}
-add_filter('acf/fields/google_map/api', 'sage_acf_google_map_api');
+});
