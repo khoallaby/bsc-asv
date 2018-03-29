@@ -155,5 +155,6 @@ add_action('after_setup_theme', function () {
  * Add gmaps api key to acf
  */
 add_action('acf/init', function () {
-    acf_update_setting('google_api_key', get_field( \sage_gmaps::get_api_key() ));
+    $api_key = get_field( 'google_maps_api_key', 'option' );
+    acf_update_setting('google_api_key', $api_key );
 });
