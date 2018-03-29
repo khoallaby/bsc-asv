@@ -8,6 +8,11 @@
   .find-your-adventure .row.row-eq-height { display: inherit; }
   .fya-background { background-image: none !important;  }
 
+  .follow-the-adventure {
+    .col-md-2 img {
+      width: 100%;
+    }
+  }
 }
 
 
