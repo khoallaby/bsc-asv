@@ -24,6 +24,9 @@ class sage_gmaps extends sage {
 	}
 
 
+	public static function get_api_key() {
+	    return self::$gmaps_api_key;
+    }
 
 
 	public function register_js() {

@@ -150,3 +150,10 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+/**
+ * Add gmaps api key to acf
+ */
+add_action('acf/init', function () {
+    acf_update_setting('google_api_key', get_field( \sage_gmaps::get_api_key() ));
+});
