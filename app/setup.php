@@ -15,6 +15,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
     if( is_page('about') )
         wp_enqueue_script('google-maps-sage');
+    wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed|Saira+Extra+Condensed' );
 }, 100);
 
 /**

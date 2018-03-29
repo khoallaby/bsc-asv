@@ -90,8 +90,3 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
-add_action( 'wp_enqueue_scripts', 'load_scripts' ); 
- 
-function load_scripts() {	
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed|Saira+Extra+Condensed' );
-}
