@@ -32,3 +32,19 @@ body.blog {
   }
 }
 
+
+body.single {
+  /* pagination on single post */
+  .post-pagination {
+    margin-bottom: 80px;
+    > a {
+      background-color: #dddddd;
+      color: theme-color("primary");
+      display: inline-block;
+      padding: 15px;
+      &[rel="next"] {
+        float: right;
+      }
+    }
+  }
+}
