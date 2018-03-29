@@ -9,7 +9,7 @@
 @section('content')
   @while(have_posts()) @php(the_post())
     <section class="content-top">
-      <h2>Amazing {{ the_title() }}</h2>
+      <h2><?php the_field('content_title'); ?></h2>
       <div class="row">
         <div class="col-md-2"><img src="{{ get_field('icon') }}" class="img-fluid" /></div>
         <div class="col-md-10">
