@@ -29,5 +29,10 @@
     @include('partials.content-'.get_post_type())
   @endwhile
 
-  {!! get_the_posts_navigation() !!}
+  <div class="posts-pagination">
+    {!! paginate_links([
+      'prev_text' => __('&lt;'),
+      'next_text' => __('&gt;'),
+    ]) !!}
+  </div>
 @endsection
