@@ -78,8 +78,6 @@ section.asv-guides-staff {
   }
 }
 
-
-
 section.about-travel-info {
   background-color: theme-color("primary");
   color: white;
@@ -92,6 +90,17 @@ section.about-travel-info {
   }
   p { margin-bottom: 30px; }
 }
+
+
+section.map-google {
+  padding-left: 0;
+  padding-right: 0;
+  .acf-map {
+    height: 460px;
+    width: 100%;
+  }
+}
+
 
 
 

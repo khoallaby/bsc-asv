@@ -28,7 +28,7 @@ class sage_gmaps extends sage {
 
 	public function register_js() {
 		wp_register_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?key=' . self::$gmaps_api_key, null, null, true );
-		wp_register_script( 'google-maps-sage', get_template_directory_uri() . '/js/google-maps.js',
+		wp_register_script( 'google-maps-sage', get_template_directory_uri() . '/assets/scripts/google-maps.js',
 			array( 'jquery', 'google-maps' ),
 			wp_get_theme()->get( 'Version' ),
 			true
