@@ -69,7 +69,9 @@ header {
         font-weight: bold;
         text-transform: uppercase;
       }
-      .current-menu-item,
+      &.current-menu-item,
+      &.current-page-item,
+      &.active,
       &:hover { border-bottom: 4px solid theme-color("teal-color"); }
 
     }
