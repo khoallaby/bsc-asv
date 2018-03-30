@@ -8,7 +8,7 @@
         <h2>HAVE SOME QUESTIONS ABOUT YOUR TRIP?</h2>
       </div>
       <div class="col-md-12 col-push-2">
-        {!! do_shortcode('[gravityform id="1"]') !!}
+        {!! do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]') !!}
       </div>
     </div>
   </div>
