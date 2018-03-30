@@ -53,7 +53,9 @@
 
 
 header {
-
+  box-shadow: $shadow;
+  position: relative;
+  z-index: 10;
   nav {
     ul li {
       border-bottom: 4px solid transparent;
