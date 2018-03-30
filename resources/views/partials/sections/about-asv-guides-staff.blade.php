@@ -29,7 +29,7 @@
                 <div class="modal-dialog modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">{{ $s->post_title }} - {{ get_field( 'staff_position', $s->ID ) }}</h5>
+                      <h4 class="modal-title">{{ $s->post_title }} - {{ get_field( 'staff_position', $s->ID ) }}</h4>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -38,7 +38,7 @@
                       <div class="col-md-4">
                         <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-md-8 staff-bio">
                         {{ $s->post_content }}
                       </div>
                     </div>
