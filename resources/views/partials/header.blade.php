@@ -20,8 +20,8 @@
   </div>
 
 
-  <div class="container nav-container">
-  <div class="container-fluid">
+  <div class="container-fluid nav-container">
+  <div class="container">
     <nav id="" class="nav-primary navbar fixed-to navbar-expand-md ">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
         <i class="fa fa-bars"></i>
