@@ -18,7 +18,10 @@
           $class = 'col-xs-6 col-sm-4 col-md-2';
       }
 
-      $image_html = sprintf( '<a href="https://www.instagram.com/middleforksalmonriverrafting/" target="_blank"><img src="%s" class="img-fluid" /></a>', $image['sizes']['gallery-' . $size . '-thumbnail'] );
+      $image_html = sprintf( '<a href="%s" target="_blank"><img src="%s" class="img-fluid" /></a>',
+        get_field('instagram_url', 'options'),
+        $image['sizes']['gallery-' . $size . '-thumbnail']
+      );
 
       if( $i == 1 || $i == 6 )
         echo '<div class="row no-gutter">';
