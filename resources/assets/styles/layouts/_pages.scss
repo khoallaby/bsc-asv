@@ -123,11 +123,12 @@ section.map-google {
   }
   .panel-title {
     background-color: #f9f9f9;
+    font-size: 35px;
     margin-bottom: 0;
     text-transform:uppercase;
     > a {
       display: block;
-      padding: 25px 20px;
+      padding: 20px;
       &:before {
         color: theme-color("green-color");
         content: "-"; //"\f068";
