@@ -63,6 +63,7 @@ header {
         font-weight: bold;
         text-transform: uppercase;
       }
+      .current-menu-item,
       &:hover { border-bottom: 4px solid theme-color("teal-color"); }
 
     }
