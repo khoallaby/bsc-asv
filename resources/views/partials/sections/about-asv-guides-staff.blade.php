@@ -26,7 +26,7 @@
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#asv-staff-member-{{ $s->ID }}">Read More</button>
 
               <div id="asv-staff-member-{{ $s->ID }}" class="modal bd-example-modal-lg asv-staff-modal container" {{--style="display: none;"--}}  tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h4 class="modal-title">{{ $s->post_title }} - {{ get_field( 'staff_position', $s->ID ) }}</h4>
