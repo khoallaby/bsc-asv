@@ -32,15 +32,12 @@ section.asv-guides-staff {
 .asv-staff-container {
   background-color: white;
   border-top: 4px solid theme-color("teal-color");
+  box-shadow: $light-shadow;
   height: calc(100% - 80px);
   margin-bottom: 30px;
   text-align: center;
   top: 50px;
   position: relative;
-
-  h2 {
-    margin-bottom: 50px;
-  }
 
   .asv-staff {
     position: relative;
@@ -58,6 +55,7 @@ section.asv-guides-staff {
   h3.staff-name {
     color: theme-color("orange-color");
     font-size: 25px;
+    margin-top: 10px;
   }
   h4.staff-position {
     font-weight: 400;
@@ -66,6 +64,7 @@ section.asv-guides-staff {
   }
   .bio-short {
     font-size: 12px;
+    padding: 0 15px;
   }
 }
 
