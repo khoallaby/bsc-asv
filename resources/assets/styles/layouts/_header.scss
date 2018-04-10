@@ -16,6 +16,7 @@
   background-color: theme-color("blue-primary");
   color: theme-color("orange-color");
   font-family: $font-family-header;
+  font-weight: bold;
   padding:4px;
   text-transform: uppercase;
   a, .fa, .phone {
@@ -65,7 +66,7 @@ header {
       a {
         color: theme-color("blue-primary");
         font-family: $font-family-header;
-        font-size: 23px;
+        font-size: 21px;
         font-weight: bold;
         text-transform: uppercase;
       }
