@@ -39,7 +39,13 @@ a:focus, a:hover { color: inherit; text-decoration: underline; }
 
 
 input[type="submit"].gform_button,
-.btn-primary { display: inline-block; font-size: 19px; padding: 5px 40px; max-width: 100%; }
+.btn-primary {
+  display: inline-block;
+  font-family: $font-family-header;
+  font-size: 19px;
+  padding: 5px 40px;
+  max-width: 100%;
+}
 
 input[type="submit"].gform_button,
 .btn-primary,

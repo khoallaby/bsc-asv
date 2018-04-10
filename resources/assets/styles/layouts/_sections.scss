@@ -34,6 +34,8 @@ section.header-adventure {
 
 section.discover-adventure {
   background: url("../images/background-discover-adventure.jpg") center top;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 50px;
   height: auto;
   min-height: 709px;

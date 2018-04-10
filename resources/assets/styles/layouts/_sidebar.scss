@@ -20,11 +20,11 @@ aside.sidebar {
   }
 
   &.sidebar-primary {
-    font-size: 24px;
+    font-size: 22px;
     h4, .fa {
       color: theme-color("orange-color");
     }
-    h4, .fa, p {
+    h4, p {
       font-family: $font-family-header;
       font-weight: bold;
       text-transform: uppercase;

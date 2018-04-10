@@ -93,12 +93,15 @@ section.planning-guides {
   padding: 60px 0;
   .planning-guide-content {
     h2 { margin-bottom: 30px; }
-    p { margin-bottom: 50px; }
+    p { margin-bottom: 20px; }
   }
   .planning-guide {
     margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase;
-    h3 { color: theme-color("primary"); }
+    h3 {
+      color: theme-color("primary");
+      padding-top: 10px;
+    }
   }
 }
