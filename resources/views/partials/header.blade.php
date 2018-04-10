@@ -1,6 +1,3 @@
-
-{{--@include('partials.sections.discover-amazing-trips')--}}
-
 <header class="banner">
   <div class="container-fluid header-contact">
     <div class="container">
@@ -42,7 +39,6 @@
 
         @if (has_nav_menu('primary_navigation_left'))
           {!! wp_nav_menu($nav_args_left) !!}
-          {{--{!! wp_nav_menu(['theme_location' => 'primary_navigation_left', 'menu_class' => 'navbar-nav']) !!}--}}
         @endif
 
 
