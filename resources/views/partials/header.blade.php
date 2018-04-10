@@ -61,12 +61,6 @@
           {!! wp_nav_menu($nav_args_right) !!}
         @endif
 
-        {{--
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>--}}
       </div>
     </nav>
   </div>
