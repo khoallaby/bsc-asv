@@ -23,7 +23,7 @@
 
           </div>
           <div id="collapse-{{ $i }}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-{{ $i }}" data-parent="#accordion">
-            <div class="panel-body">{{ get_sub_field('content') }}</div>
+            <div class="panel-body">{!! nl2br(get_sub_field('content')) !!}</div>
           </div>
         </div>
       @endwhile
