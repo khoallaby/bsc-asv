@@ -22,7 +22,7 @@
               <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
               <h3 class="staff-name">{{ $s->post_title }}</h3>
               <h4 class="staff-position">{{ get_field( 'staff_position', $s->ID ) }}</h4>
-              <p class="bio-short">{{ $s->post_excerpt }}</p>
+              <p class="bio-short">{!! nl2br($s->post_excerpt) !!}</p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#asv-staff-member-{{ $s->ID }}">Read More</button>
 
               <div id="asv-staff-member-{{ $s->ID }}" class="modal bd-example-modal-lg asv-staff-modal container" {{--style="display: none;"--}}  tabindex="-1" role="dialog">
@@ -39,7 +39,7 @@
                         <img src="{{ $staff_picture_url }}" class="staff-pic" height="135" width="135" />
                       </div>
                       <div class="col-md-8 staff-bio">
-                        {{ $s->post_content }}
+                        {!! nl2br($s->post_content) !!}
                       </div>
                     </div>
                   </div>
