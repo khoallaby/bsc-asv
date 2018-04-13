@@ -11,7 +11,7 @@
         while ( have_rows('planning_guides') ) : the_row();
       @endphp
       <div class="col-md-3 planning-guide">
-        <a href="{{ get_sub_field('file') }}">
+        <a target="_blank" href="{{ get_sub_field('file') }}">
           <img src="@asset('images/icons/planning-guide.png')" /><br />
           <h3>{{ get_sub_field('title') }}</h3>
         </a>
