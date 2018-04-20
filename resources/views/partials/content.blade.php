@@ -12,6 +12,6 @@
   </header>
   <div class="entry-summary">
     @php(the_excerpt())
-    <a href="{{ get_permalink() }}" class="btn btn-primary">Read More</a>
+    <p><a href="{{ get_permalink() }}" class="btn btn-primary">Read More</a></p>
   </div>
 </article>
