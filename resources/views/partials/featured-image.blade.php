@@ -12,7 +12,7 @@ namespace App;
   if( !$image )
     $image = $default;
 
-  if( is_home() || is_singular('post') ) {
+  if( is_home() || is_singular('post') || is_category() ) {
     $image = $default_blog;
     $h1 = "ASV River Blog";
   }
