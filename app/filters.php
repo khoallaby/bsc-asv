@@ -87,6 +87,7 @@ add_filter('sage/display_sidebar', function ($display) {
     isset($display) || $display = in_array(true, [
         // The sidebar will be displayed if any of the following return true
         is_single(),
+        is_category(),
         is_home(),
         is_page_template( 'views/template-sidebar.blade.php' ),
     ]);

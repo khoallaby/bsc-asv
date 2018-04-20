@@ -15,7 +15,7 @@
           @yield('content')
         </main>
 
-        @if (App\display_sidebar() && (is_home() || is_single()) )
+        @if (App\display_sidebar() )
           @include('partials.sidebar')
         @endif
       </div>
