@@ -15,7 +15,7 @@
           @yield('content')
         </main>
 
-        $is_blog = is_home() || is_single() || is_category() ? true : false;
+        <?php $is_blog = is_home() || is_single() || is_category() ? true : false; ?>
         
         @if (App\display_sidebar() && $is_blog)
           @include('partials.sidebar')
