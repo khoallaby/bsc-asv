@@ -9,7 +9,7 @@
       <div class="col-md-4 contact-us-text">
         <h3>CONTACT US</h3>
         <p>
-          <strong>T</strong> 208.507.1012<br />
+          <strong>T</strong> <a href="tel:1{{ get_field('phone_number', 'options') }}">{{ get_field('phone_number', 'options') }}</a><br />
           <strong>E</strong> <a href="mailto:info@adventuresunvalley.com">info@adventuresunvalley.com </a><br />
           Adventure Sun Valley<br />
           374 Wolverine Ct., Richland Wa 99352<br />
