@@ -7,7 +7,7 @@
           @include('partials.social-media')
         </div>
         <div class="col">
-          Contact Us!
+          Call Us!
           <i class="fa fa-phone" aria-hidden="true"></i>
           <span class="phone">{{ get_field('phone_number', 'options') }}</span>
         </div>
