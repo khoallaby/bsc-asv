@@ -9,7 +9,7 @@
         <div class="col">
           Call Us!
           <i class="fa fa-phone" aria-hidden="true"></i>
-          <span class="phone">{{ get_field('phone_number', 'options') }}</span>
+          <span class="phone"><a href="tel:1{{ get_field('phone_number', 'options') }}">{{ get_field('phone_number', 'options') }}</a></span>
         </div>
       </div>
 
