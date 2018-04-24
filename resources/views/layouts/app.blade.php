@@ -15,9 +15,7 @@
           @yield('content')
         </main>
 
-        @if (App\display_sidebar() )
-          @include('partials.sidebar')
-        @endif
+        
       </div>
     </div>
     @yield('post-content')
