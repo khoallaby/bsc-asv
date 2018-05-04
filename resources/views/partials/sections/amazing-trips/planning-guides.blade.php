@@ -12,7 +12,7 @@
       @endphp
       <div class="col-md-3 planning-guide">
         <a target="_blank" href="{{ get_sub_field('file') }}">
-          <img src="@asset('/wp-content/uploads/2018/05/planning-guide.png')" /><br />
+          <img src="/wp-content/uploads/2018/05/planning-guide.png" /><br />
           <h3>{{ get_sub_field('title') }}</h3>
         </a>
       </div>
