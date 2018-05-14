@@ -11,8 +11,8 @@
     <section class="content-top">
       <h2><?php the_field('content_title'); ?></h2>
       <div class="row">
-        <div class="col-md-2 d-none d-sm-block"><img src="{{ get_field('icon') }}" class="img-fluid" /></div>
-        <div class="col-md-10">
+        <div class="col-md-2 d-xs-none d-md-block"><img src="{{ get_field('icon') }}" class="img-fluid" /></div>
+        <div class="col-xs-12 col-md-10">
           {{ the_content() }}
         </div>
       </div>
