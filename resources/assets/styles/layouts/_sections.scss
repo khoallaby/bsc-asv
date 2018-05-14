@@ -20,9 +20,13 @@ section.header-adventure {
     font-family: $font-family-header;
     font-size: 58px;
     font-weight: bold;
+    line-height: 1.1em;
     padding-right: 25px;
     text-align: right;
     text-transform: uppercase;
+  }
+  .adventure-image {
+    img { margin-bottom: 0;}
   }
   background: url("../images/header-adventure.jpg") center;
   min-height: 97px;
