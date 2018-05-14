@@ -1,6 +1,6 @@
 <section class="container-fluid header-adventure vcenter">
     <div class="container">
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-6 adventure-text">
                 {{ $title or '' }}
             </div>
