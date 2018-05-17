@@ -8,6 +8,8 @@ section.discover-amazing-trips {
     text-align: center;
   }
   .amazing-trip {
+    flex-grow: 1;
+    width: 33.3333%;
     h3 {
       color: theme-color("blue-primary");
       font-size: 24px;

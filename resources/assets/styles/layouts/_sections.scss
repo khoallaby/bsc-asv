@@ -104,32 +104,6 @@ section.discover-adventure {
 }
 
 
-/* section - discover y/our amazing trips */
-
-section.discover-amazing-trips {
-  margin-bottom: 45px;
-  h2 {
-    color: theme-color("green-color");
-    font-size: 42px;
-    text-align: center;
-  }
-  .amazing-trip {
-    h3 {
-      color: theme-color("blue-primary");
-      font-size: 24px;
-      font-weight: bold;
-      text-transform: uppercase;
-
-    }
-    &:hover, &.active { background-color: #f2f2f2; }
-    min-height: 150px;
-    text-align: center;
-
-  }
-}
-
-
-
 /* section - enjoy whitewater */
 
 section.enjoy-whitewater {
